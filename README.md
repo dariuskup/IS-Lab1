@@ -9,10 +9,4 @@ y = 1, kai x1\*w1 + x2\*w2 + b > 0; y = -1, kai x1\*w1 + x2\*w2 + b <= 0; čia w
 w1(n+1) = w1(n) + eta\*e(n)\*x1(n); čia 0 < eta < 1; e(n) = d(n) - y(n); - klaida (momentinė klaida), apskaičiuota palyginus norimą atsakymą su tuo, kuris gautas klasifikatoriaus išėjime.
 w2(n+1) = w2(n) + eta\*e(n)\*x2(n);
 b(n+1) = b(n) + eta\*e(n);
-# Papildoma užduotis (papildomi 2 balai)
-Išspręskite šį klasifikavimo uždavinį naudodami Naive Bayes Classifier.
-Kelios nuorodos į paprastai pateiktus šio tipo klasifikatoriaus taikymo pavyzdžius:
-- http://www.statsoft.com/textbook/naive-bayes-classifier
-- https://en.wikipedia.org/wiki/Naive_Bayes_classifier
-# Rekomenduojama literatūra
-- Neural Networks and Learning Machines (3rd Edition), 54 psl., 1.1 lentelė
+# Papildoma užduotis (papildomi 2 balai). Neatlikta.
